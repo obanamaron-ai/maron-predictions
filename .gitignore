@@ -1,0 +1,12 @@
+# 公開用リポジトリ。予想の投稿テキストのみを置く。
+# 本番リポジトリの生成物が誤って混入しないよう、既定で広く弾く。
+*.parquet
+*.pkl
+*.csv
+*.log
+*.env
+.env
+*_live_predictions.jsonl
+*_odds_snapshot.jsonl
+__pycache__/
+.DS_Store
